@@ -17,5 +17,48 @@ namespace Fase2_Juan_Rojas
             InitializeComponent();
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnvalidar_Click(object sender, EventArgs e)
+        {
+            if (txtclave.Text != "") // Validar si se ha diligenciado el campo contraseña
+            {
+                if (txtclave.Text == "123") // Validar Contraseña
+                {
+                    HotelEstadia est = new(); // Invocar el formulario HotelEstadia
+                    est.Show(); // Mostrar el Formulario HotelEstadia
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Por favor digite la contraseña correcta"); // Informar al usuario error al digitar contraseña
+                    txtclave.Focus(); // Llevar al Campo
+                    txtclave.Clear(); // Limpiar el campo
+                }
+            }
+            else
+            {
+                MessageBox.Show("Por favor ingrese una contraseña"); // Informar al usuario contraseña vacia
+                txtclave.Focus(); // Llevar al Campo
+            }
+        }
     }
 }

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Fase2_Juan_Rojas/1.0.0": {
+        "runtime": {
+          "Fase2_Juan_Rojas.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Fase2_Juan_Rojas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
