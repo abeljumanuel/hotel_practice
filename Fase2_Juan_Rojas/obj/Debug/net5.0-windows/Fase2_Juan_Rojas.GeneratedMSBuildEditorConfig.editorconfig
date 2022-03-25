@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0-windows
+build_property.TargetPlatformMinVersion = 7.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = Fase2_Juan_Rojas
+build_property.ProjectDir = C:\Users\abelj\OneDrive - Universidad Nacional Abierta y a Distancia\2022_16-1\301305_EstructurasDeDatos\Fase02\fase2JuanRojas\hotel_practice\Fase2_Juan_Rojas\
